@@ -44,6 +44,9 @@ public class RationalePermissionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rationale_permission);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        findViewById(R.id.btn_1).setOnClickListener(v ->
+                Toast.makeText(this, "123", Toast.LENGTH_SHORT).show()
+        );
         setSupportActionBar(toolbar);
 
         //noinspection ConstantConditions
